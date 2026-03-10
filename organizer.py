@@ -1,7 +1,6 @@
 from pathlib import Path
 import shutil
 import sys 
-
 file_types = {".jpg" : "Images" ,
               ".png" : "Images" ,
               ".svg" : "Images" , 
