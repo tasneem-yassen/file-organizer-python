@@ -9,8 +9,9 @@ A Python script that automatically organizes files in a folder by file type.
 
 ## Technologies
 - Python
-- os
+- sys
 - shutil
+- pathlib
 
 ## Project Status
 In progress
