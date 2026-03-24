@@ -32,7 +32,9 @@ def organize_folder(folder_path_str) :
                         folder_name= "Other" 
                 target_folder = folder_path / folder_name
                 target_folder.mkdir(exist_ok=True)
+                print("Moving",item.name ,"→",folder_name)
                 shutil.move(item,target_folder)
+            
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python organize.py <folder_path>")
